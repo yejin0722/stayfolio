@@ -1,70 +1,158 @@
-# Getting Started with Create React App
+# **🏡StayFolio** 클론코딩
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 👩‍💻 작업자 : 조예진
 
-## Available Scripts
+## 📌 프로젝트 소개
 
-In the project directory, you can run:
+**StayFolio 클론코딩 프로젝트**는 공식 사이트의 미려한 디자인과 정보를 분석하여,
+React 프레임워크와 React-Bootstrap 라이브러리를 통해 재구현한 클론 프로젝트입니다.
 
-### `npm start`
+기존 사이트에서 영감을 받아 UI/UX 개선과 **컴포넌트 단위의 코드 설계**,
+**서브페이지 간 구조적 연결** 및 **실제 검색/로그인 등의 흐름을 모사**해 사용성과 완성도를 높였습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 📅 제작 기간
+- 약 30시간소요
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 개발 세팅 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **개발 환경** : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat&logo=windows10&logoColor=white"/>
 
-### `npm run eject`
+- **사용 프로그램** : <img src="https://img.shields.io/badge/Vs_code-007ACC?style=flat&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat&logo=figma&logoColor=white"/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **사용 언어** : <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ ## ✨ 데모 사이트
+👉 [StayFolio 클론 사이트 바로가기](https://precious-halva-7b73d6.netlify.app/)<br>
+   📱 모바일 최적화
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📦 프로젝트 폴더 구조
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+  stayfolio  
+┣ 📂 public  
+┣ 📂 images  
+┣ 📂 js   
+┗ 📂 pages  
+  index.html
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 👀 페이지 구성
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🏠 메인 페이지
 
-### Advanced Configuration
+| Header, 메인비주얼                                                                                                      |
+| :---------------------------------------------------------------------------------------------------------------------- |
+| ![image](https://github.com/user-attachments/assets/ebfae0e0-f977-440a-b089-ae9a9eb91e27)
+| 헤더에 서브페이지가 제작된 로그인, 회원가입 버튼을 **클릭 유도**하고 있습니다.
+| 슬라이드에는 시선을 끄는 이미지를 사용하고, 이미지에 맞는 텍스트가 타이밍에 맞춰 **자연스럽게 전환**되도록 구성했습니다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br>
 
-### Deployment
+| 섹션 : Title                                                                                         |
+| :------------------------------------------------------------------------------------------------------------------------ |
+| ![image](https://github.com/user-attachments/assets/95a59db2-759d-457d-80b2-0f8982bb6ec2)
+| 강원대학교 병원의 이니셜(KNUH)을 강조한 타이틀 영역입니다. <br>
+| **스크롤 시 등장**하는 AOS 애니메이션 효과로 동적인 화면 구성을 연출했습니다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br>
 
-### `npm run build` fails to minify
+| 섹션 : Quick Menu                                                                                                          |
+| :----------------------------------------------------------------------------------------------------------------------- |
+| ![Image](https://github.com/user-attachments/assets/2cf4a1b0-d024-4e52-9ee0-031fa435ff3b)
+| 예약 및 증명서 발급 등 주요 기능을 카드 형식으로 정리하여 사용자가 쉽게 접근할 수 있도록 했습니다.
+| 마우스를 올리면 카드에 **크기 변화** 효과가 적용되며, AOS 효과를 적용해 부드러운 **진입 애니메이션**도 함께 구현했습니다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+
+| 섹션 : Keyword Search                                                                                                           |
+| :--------------------------------------------------------------------------------------------------------------------- |
+| ![Image](https://github.com/user-attachments/assets/c49f3641-9f87-4980-8cd7-d967c795f29d)
+| 진료과나 의료진을 검색할 수 있는 인풋창을 제작했습니다.
+| 아래 **키워드를 클릭**하면 자동으로 인풋에 입력되며, 검색 버튼 클릭 시 해당 페이지로 이동되도록 스크립트를 작성했습니다.
+<br>
+
+| 섹션 : News                                                                                                      |
+| :------------------------------------------------------------------------------------------------------------------------ |
+| ![Image](https://github.com/user-attachments/assets/9b22448d-793d-4b3d-a1b5-e5699f4dfa64)
+| 병원의 공지사항과 건강 정보를 카드 형식으로 제공하는 영역입니다.
+| 마우스를 올리면 카드에 크기 변화 효과가 적용되며, 공지사항 / 건강정보 **탭을 전환**해 각각의 정보를 확인할 수 있습니다.
+| '전체 소식 보러가기’ 버튼에는 **클릭 유도** 효과를 추가해 서브페이지로 자연스럽게 연결되도록 구성했습니다.
+
+<br>
+
+| 섹션 : Review                                                                                                        |
+| :------------------------------------------------------------------------------------------------------------------------------ |
+| ![Image](https://github.com/user-attachments/assets/a18cc46c-7a01-40f6-8feb-e7313f01bd33)
+| 방문객이 남긴 실제 리뷰를 이미지와 함께 슬라이드로 구성했습니다.
+| 브라우저 크기에 따라 슬라이드 **개수가 자동으로 조절**되어, 반응형에서도 보기 좋게 제작했습니다.
+
+<br>
+
+| 섹션 : Map                                                                                                       |
+| :------------------------------------------------------------------------------------------------------------------------------ |
+| ![Image](https://github.com/user-attachments/assets/69ee359a-6913-4493-91f3-487c8fb5b11d)
+| 병원 방문을 돕기 위해 Google 지도를 iframe 형태로 삽입해 길안내 기능을 제공합니다.
+
+<br>
+
+| Footer                                                                                                      |
+| :------------------------------------------------------------------------------------------------------------------------------ |
+| ![Image](https://github.com/user-attachments/assets/17b389ac-2bbc-4f6d-89a9-ce5d4e82712f)
+| 진료과, 전문센터 등 관련 사이트 목록을 리스트 형태로 제공하며, 해당 **버튼 클릭** 시 리스트가 위로 펼쳐지도록 자바스크립트로 구현했습니다.
+
+<br>
+
+| TopButton / SIde Nav                                                                                                      |
+| :------------------------------------------------------------------------------------------------------------------------------ |
+| ![Image](https://github.com/user-attachments/assets/9a70462b-9006-4470-b495-96c2a15ac9de)
+| ![Image](https://github.com/user-attachments/assets/2f4d8e50-6a13-44d4-8d2e-dfe0f63d7289)
+| 페이지 상단으로 부드럽게 이동할 수 있는 **탑 버튼**과, 원하는 메뉴로 빠르게 접근할 수 있는 사이드 네비게이션을 구성했습니다.
+| 모바일 구간에서는 사이드 네비게이션이 **하단으로 이동하는 반응형** 구조로 구현했습니다.
+
+<br>
+
+### 📄 서브페이지
+
+| 서브01 : 로그인                                                                                                      |
+| :------------------------------------------------------------------------------------------------------------------------ |
+| ![Image](https://github.com/user-attachments/assets/6adeabdc-5f1f-445f-8982-b71a77da118b) |
+| 로그인을 위한 페이지입니다.
+| ![Image](https://github.com/user-attachments/assets/dd02c6fd-4eb7-4584-ad48-90f2195d945d) |
+| 아이디 또는 비밀번호 입력란이 비어 있을 경우, "아이디, 비밀번호를 입력해주세요." **경고창이 출력**되도록 자바스크립트로 구현했습니다.
+<br>
+
+| 서브02 : 회원가입                                                                                                       |
+| :---------------------------------------------------------------------------------------------------------------------- |
+| ![Image](https://github.com/user-attachments/assets/c2bb50d6-5423-4522-b0ff-bf3b63c1e362) |
+| 회원가입을 할 수 있는 페이지입니다. 단계별 안내로 **사용자 편의성을 고려**해 구현하였습니다.
+<br>
+
+| 서브03 : 공지사항                                                                                                       |
+| :---------------------------------------------------------------------------------------------------------------------- |
+| ![Image](https://github.com/user-attachments/assets/291a0125-73b5-49f2-b1c0-03c5c6249cb4) |
+| 공지사항을 표 형식으로 구성한 페이지입니다.
+| 한 페이지당 최대 10개의 게시물이 표시되며, **페이지네이션 기능**을 적용하여 다음 게시글을 순차적으로 확인할 수 있도록 구현했습니다.
+
+
+---
+
+## 📝 라이선스
+
+본 프로젝트는 **개인 포트폴리오 및 학습용**으로 제작되었으며,
+StayFolio의 브랜드 및 이미지 저작권은 해당 사이트에 있습니다.
+
