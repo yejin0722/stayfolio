@@ -44,10 +44,10 @@ React 프레임워크와 React-Bootstrap 라이브러리를 통해 재구현한 
 ┣ 📂 public  
 ┃ ┗ 📄 index.html  
 ┣ 📂 src  
-┃ ┣ 📂 components         # 공통 컴포넌트 (Header, Footer 등)  
-┃ ┣ 📂 data               # 더미 데이터 (DummyData.js) 
+┃ ┣ 📂 components
+┃ ┣ 📂 data
 ┃ ┣ 📂 pages              
-┃ ┣ 📂 styles             # 스타일 파일 (SCSS)  
+┃ ┣ 📂 styles
 ┃ ┣ 📄 App.js             
 ┃ ┗ 📄 index.js           
 ┣ 📄 package.json  
