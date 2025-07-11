@@ -1,0 +1,98 @@
+$theme-colors: (
+  "light": #f5f5f5,
+  "info": #f2f2f2
+);
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+$font-family-base: 'Pretendard-Regular';
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  font-family: $font-family-base;
+}
+@media(max-width: 768px){
+  h2{font-size: 24px !important;}
+  h3{font-size: 22px !important;}
+  h4{font-size: 20px !important;}
+  p{font-size: 14px !important;}
+  span{font-size: 14px !important;}
+  .about-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .sns-wrap{
+      i{margin-right: 10px !important;}
+      padding-bottom: 15px;
+    }
+  }
+  .footer-wrap{
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .datailreserved{display: none;}
+  .staydetaildesc{
+    width: 100%;
+    .staysale{
+      font-size: 14px !important;
+      strong{display: block; font-size: 16px !important; margin-bottom: 5px;}
+    }
+    .option{
+      div{
+        gap: 8px !important;
+        img{width: 115px !important; height: 115px !important;}
+      }
+    }
+  }
+  .datailreviewtitle{margin-top: 15px;}
+  .promotionevent{
+    div{
+      margin-top: 50px;
+      padding-bottom: 20px;
+      .link{margin-top: 30px !important;}
+    }
+  }
+}
+.stay-travel-more-btn{
+  border: 1px solid #000;
+  font-size: 16px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.footer-wrap{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .footer-btns{
+      margin-bottom: 30px;
+      margin-top: -5px;
+      button{
+        color: #595959;
+        border-radius: 5px;
+        border: 1px solid #595959;
+        margin-right: 10px;
+        font-size: 14px;
+        padding: 2px 10px;
+        outline: none;
+      }
+    }
+}
+.about{
+    font-size: 12px;
+    color: #949494;
+    .about-wrap{
+      display: flex;
+      justify-content: space-between;
+    }
+}

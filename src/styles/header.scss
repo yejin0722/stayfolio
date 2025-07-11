@@ -1,0 +1,19 @@
+.input-group-text.search-icon {
+  background-color: #fff !important;
+  border-right: none;
+  padding-left: 20px !important;
+  padding-right: 5px !important;
+  border-top-left-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+}
+.form-control:focus {
+  border-color: #ced4da !important; 
+  box-shadow: none !important;
+  outline: none !important;
+}
+.login-btn-wrap{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  img{width: 50px;}
+}
