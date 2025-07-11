@@ -24,9 +24,9 @@ React 프레임워크와 React-Bootstrap 라이브러리를 통해 재구현한 
 
 - **개발 환경** : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat&logo=windows10&logoColor=white"/>
 
-- **사용 프로그램** : <img src="https://img.shields.io/badge/Vs_code-007ACC?style=flat&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat&logo=figma&logoColor=white"/>
+- **사용 프로그램** : <img src="https://img.shields.io/badge/Vs_code-007ACC?style=flat&logo=visualstudiocode&logoColor=white"/> 
 
-- **사용 언어** : <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
+- **사용 언어** : <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
 
 ---
 
@@ -40,12 +40,18 @@ React 프레임워크와 React-Bootstrap 라이브러리를 통해 재구현한 
 ## 📦 프로젝트 폴더 구조
 
 
-  stayfolio  
+  stayfolio    
 ┣ 📂 public  
-┣ 📂 images  
-┣ 📂 js   
-┗ 📂 pages  
-  index.html
+┃ ┗ 📄 index.html  
+┣ 📂 src  
+┃ ┣ 📂 components         # 공통 컴포넌트 (Header, Footer 등)  
+┃ ┣ 📂 data               # 더미 데이터 (DummyData.js 등)  
+┃ ┣ 📂 pages              # 메인/서브 페이지 컴포넌트  
+┃ ┣ 📂 styles             # 스타일 파일 (CSS 등)  
+┃ ┣ 📄 App.js             # 라우팅 포함 메인 컴포넌트  
+┃ ┗ 📄 index.js           # 앱 진입점  
+┣ 📄 package.json  
+┗ 📄 README.md
 
 
 ---
