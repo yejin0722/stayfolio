@@ -40,18 +40,18 @@ React 프레임워크와 React-Bootstrap 라이브러리를 통해 재구현한 
 ## 📦 프로젝트 폴더 구조
 
 
-  stayfolio    
-┣ 📂 public  
-┃ ┗ 📄 index.html  
-┣ 📂 src  
-┃ ┣ 📂 components
-┃ ┣ 📂 data
-┃ ┣ 📂 pages              
-┃ ┣ 📂 styles
-┃ ┣ 📄 App.js             
-┃ ┗ 📄 index.js           
-┣ 📄 package.json  
-┗ 📄 README.md
+  stayfolio     
+┣ 📂 public   
+┃ ┗ 📄 index.html   
+┣ 📂 src   
+┃ ┣ 📂 components   
+┃ ┣ 📂 data  
+┃ ┣ 📂 pages                
+┃ ┣ 📂 styles  
+┃ ┣ 📄 App.js               
+┃ ┗ 📄 index.js             
+┣ 📄 package.json    
+┗ 📄 README.md  
 
 
 ---
