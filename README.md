@@ -143,7 +143,7 @@
 #### 🔹 Pre-order
 <img src="https://github.com/user-attachments/assets/1ffbc74b-83ae-4d5d-b7ec-affb4f3fedfe" width="80%"/>
 
-- 오픈 예정 숙소 정보를 미리 보여주는 페이지
+- (오픈 예정) 프리오더 서브페이지
 
 ---
 
