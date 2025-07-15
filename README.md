@@ -71,8 +71,7 @@ React 프레임워크와 React-Bootstrap 라이브러리를 통해 재구현한 
 
 | 검색, 로그인모달                                                                                         |
 | :------------------------------------------------------------------------------------------------------------------------ |
-| ![image](https://github.com/user-attachments/assets/f9e74162-4c13-4e98-a560-b6a8ebcfc486)
-| ![image](https://github.com/user-attachments/assets/dec309d7-102c-48de-bd62-995052a9fd76)
+| ![image](https://github.com/user-attachments/assets/f9e74162-4c13-4e98-a560-b6a8ebcfc486) ![image](https://github.com/user-attachments/assets/dec309d7-102c-48de-bd62-995052a9fd76)
 | 스테이폴리오의 검색 모달과 로그인 모달 입니다. <br>
 | **네브바의 검색인풋 클릭 시** 검색 모달창이 열리게 되며, 검색어나 해당 지역 버튼을 클릭하면 자동 입력되어 검색 버튼을 누르면 해당 검색어가 포함된 스테이가 나열되는 서브페이지로 이동합니다.
 
