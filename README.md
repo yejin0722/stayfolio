@@ -1,43 +1,43 @@
-# **🏡StayFolio** 클론코딩
+# 🏡 **StayFolio** 클론코딩
 
 ## 👩‍💻 작업자 : 조예진
 
+---
+
 ## 📌 프로젝트 소개
 
-**StayFolio 클론코딩 프로젝트**는 공식 사이트의 디자인과 정보를 분석하여,
-React 프레임워크와 React-Bootstrap 라이브러리를 통해 재구현한 클론 프로젝트입니다.
+**StayFolio 클론코딩 프로젝트**는 공식 사이트의 디자인과 UI/UX를 분석하여,  
+**React 프레임워크**와 **React-Bootstrap** 라이브러리를 활용해 재구현한 프로젝트입니다.
 
-기존 사이트에서 영감을 받아 UI/UX 개선과 **컴포넌트 단위의 코드 설계**,
-**서브페이지 간 구조적 연결** 및 **실제 검색/로그인 등의 흐름을 모사**해 사용성과 완성도를 높였습니다.
+컴포넌트 단위의 설계, 서브페이지 간 구조적 연결, 검색 및 로그인 흐름 구현 등을 통해  
+원본 사이트와 유사한 사용자 경험을 제공합니다.
 
 ---
-
 
 ## 📅 제작 기간
-- 약 30시간소요
 
-
----
-
-
-## 💻 개발 세팅 
-
-- **개발 환경** : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat&logo=windows10&logoColor=white"/>
-
-- **사용 프로그램** : <img src="https://img.shields.io/badge/Vs_code-007ACC?style=flat&logo=visualstudiocode&logoColor=white"/> 
-
-- **사용 언어** : <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
+- 총 **약 30시간 소요**
 
 ---
 
+## 💻 개발 환경
 
- ## ✨ 데모 사이트
-👉 [StayFolio 클론 사이트 바로가기](https://precious-halva-7b73d6.netlify.app/)<br>
-   📱 모바일 최적화
+- **OS** : ![Windows](https://img.shields.io/badge/Windows_10-0078D6?style=flat&logo=windows10&logoColor=white)
+- **IDE** : ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+- **사용 언어** : ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+- **프레임워크** : ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+- **UI 라이브러리** : ![React-Bootstrap](https://img.shields.io/badge/React--Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 
 ---
 
-## 📦 프로젝트 폴더 구조
+## ✨ 데모 사이트
+
+👉 [StayFolio 클론 사이트 바로가기](https://precious-halva-7b73d6.netlify.app/)  
+📱 **모바일 최적화** 완료
+
+---
+
+## 📁 프로젝트 폴더 구조
 
 
   stayfolio     
