@@ -112,14 +112,14 @@ React 프레임워크와 React-Bootstrap 라이브러리를 통해 재구현한 
 
 | 서브02 : Promotion                                                                                                       |
 | :---------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/c4f106f3-1fcf-43a0-b754-7c3283247c8d" width="50%"> <img src="https://github.com/user-attachments/assets/f2900945-3713-483a-ac01-3f6745c93e23" width="50%"> |
+| <img src="https://github.com/user-attachments/assets/c4f106f3-1fcf-43a0-b754-7c3283247c8d" width="45%"> <img src="https://github.com/user-attachments/assets/f2900945-3713-483a-ac01-3f6745c93e23" width="45%"> |
 | 에디터의 추천, 이벤트등 프로모션 소식을 확인할 수 있는 서브페이지 입니다.
 | 프로모션 카드를 클릭하면, 이벤트의 상세 정보를 볼 수 있는 페이지로 이동합니다.
 <br>
 
 | 서브03 : journal (Travel)                                                                                                        |
 | :---------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/8452e3c1-bc5c-4a3e-ac83-34c7b9981f3f" width="50%"> <img src="https://github.com/user-attachments/assets/2d8b926b-ca3c-4509-9961-ceb4b244434d" width="50%"> |
+| <img src="https://github.com/user-attachments/assets/8452e3c1-bc5c-4a3e-ac83-34c7b9981f3f" width="45%"> <img src="https://github.com/user-attachments/assets/2d8b926b-ca3c-4509-9961-ceb4b244434d" width="45%"> |
 | 스테이 여행기를 볼 수 있는 서브페이지 입니다.
 | 카드를 클릭하면 해당 숙소에서 실제로 투숙하며 여행했던 여행기를 볼 수 있는 서브페이지로 이동합니다.
 
