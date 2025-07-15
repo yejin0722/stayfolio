@@ -56,108 +56,98 @@
 
 ---
 
-
 ## 👀 페이지 구성
 
 ### 🏠 메인 페이지
 
-| Navbar, 메인비주얼                                                                                                      |
-| :---------------------------------------------------------------------------------------------------------------------- |
-| ![image](https://github.com/user-attachments/assets/62b7aac5-f6e1-4d86-9c88-2fd7f2b66e85)
-| 스테이폴리오의 메인비주얼 슬라이드 캐로셀 영역과 네브바 컴포넌트 입니다. <br>
-| 슬라이드는 자동 재생 되며 **이전, 다음버튼 클릭 시 전환** 되도록 구현했습니다.
+#### 🔹 Navbar & 메인 비주얼
+![Navbar/Main](https://github.com/user-attachments/assets/62b7aac5-f6e1-4d86-9c88-2fd7f2b66e85)
 
+- 메인 비주얼 캐러셀과 네브바 컴포넌트입니다.  
+- 캐러셀은 자동 재생되며, 이전/다음 버튼으로 슬라이드를 전환할 수 있습니다.
 
-<br>
+---
 
-| 검색, 로그인모달                                                                                         |
-| :------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://github.com/user-attachments/assets/f9e74162-4c13-4e98-a560-b6a8ebcfc486" width="500px"> <img src="https://github.com/user-attachments/assets/dec309d7-102c-48de-bd62-995052a9fd76" width="300px">
-| 스테이폴리오의 검색 모달과 로그인 모달 입니다. <br>
-| **네브바의 검색인풋 클릭 시** 검색 모달창이 열리게 되며, 검색어나 해당 지역 버튼을 클릭하면 자동 입력되어 검색 버튼을 누르면 해당 검색어가 포함된 스테이가 나열되는 서브페이지로 이동합니다.
+#### 🔹 검색 & 로그인 모달
+<img src="https://github.com/user-attachments/assets/f9e74162-4c13-4e98-a560-b6a8ebcfc486" width="45%"/> <img src="https://github.com/user-attachments/assets/dec309d7-102c-48de-bd62-995052a9fd76" width="45%"/>
 
+- 네브바의 검색 인풋 클릭 시 검색 모달이 열립니다.  
+- 검색어 또는 지역 버튼 클릭 → 자동 입력 → 검색 → 결과 페이지로 이동
 
-<br>
+---
 
-| Stay Card                                                                                                        |
-| :----------------------------------------------------------------------------------------------------------------------- |
-| ![Image](https://github.com/user-attachments/assets/6bed7346-f2fc-4150-a6ea-01d47bab669f)
-| 홈페이지 메인 영역인 스테이폴리오 입점 스테이들의 카드 입니다.
-| **카드를 클릭 시** 해당 스테이의 id 값을 받아 **스테이 디테일 서브페이지**로 이동합니다.
+#### 🔹 Stay Card
+![Stay Card](https://github.com/user-attachments/assets/6bed7346-f2fc-4150-a6ea-01d47bab669f)
 
+- 메인 영역에 나열된 스테이 카드  
+- 클릭 시 `id`를 기반으로 디테일 페이지로 이동
 
-<br>
+---
 
-| Make Folio                                                                                                         |
-| :--------------------------------------------------------------------------------------------------------------------- |
-| ![Image](https://github.com/user-attachments/assets/29cc9025-1e57-4fc3-8d18-f9f3654d9eb6)
-| 스테이 여행기를 미리보기 할 수 있는 섹션입니다.
-| 아래 **스테이 여행기 더 보러가기**를 클릭하면 Journal 서브페이지의 travel 페이지로 이동합니다.
-<br>
+#### 🔹 Make Folio
+![Make Folio](https://github.com/user-attachments/assets/29cc9025-1e57-4fc3-8d18-f9f3654d9eb6)
 
+- 스테이 여행기를 미리 볼 수 있는 섹션  
+- '더 보러가기' 클릭 시 `Journal > Travel` 페이지로 이동
 
-| Footer                                                                                                      |
-| :------------------------------------------------------------------------------------------------------------------------ |
-| ![Image](https://github.com/user-attachments/assets/51602585-fd02-476f-a13b-4d47d33a9503)
-| 컴포넌트 영역인 푸터 입니다.
+---
 
+#### 🔹 Footer
+![Footer](https://github.com/user-attachments/assets/51602585-fd02-476f-a13b-4d47d33a9503)
 
-<br>
+- 전체 페이지 하단의 푸터 컴포넌트입니다.
 
-## 👀 페이지 구성
+---
 
-### 📄 서브페이지
+## 📄 서브 페이지 구성
 
-| 서브: SearchResult                                                                                                        |
-| :---------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/4f851ae8-6a70-498e-900a-206dd5d5c3d4"> |
-| 검색 모달창에서 입력된 값을 받아 검색어가 포함된 스테이를 보여주는 SearchResult 서브 페이지 입니다.
-<br>
+#### 🔹 SearchResult
+<img src="https://github.com/user-attachments/assets/4f851ae8-6a70-498e-900a-206dd5d5c3d4" width="80%"/>
 
+- 검색된 키워드에 해당하는 스테이 목록을 보여주는 페이지
 
-| 서브: Stay Detail                                                                                                      |
-| :------------------------------------------------------------------------------------------------------------------------ |
-| ![Image](https://github.com/user-attachments/assets/4caf3871-2708-479e-9a77-2c67cabbbc6b) |
-| 스테이 카드를 클릭 했을 때 해당 스테이의 id값에 맞는 상세 정보를 보여주는 디테일 페이지 입니다.
-| 날짜 설정 및 스테이의 상세 이미지, 가격 등을 확인 할 수 있습니다.
-<br>
+---
 
+#### 🔹 Stay Detail
+![Stay Detail](https://github.com/user-attachments/assets/4caf3871-2708-479e-9a77-2c67cabbbc6b)
 
-| 서브: Promotion                                                                                                       |
-| :---------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/c4f106f3-1fcf-43a0-b754-7c3283247c8d" width="45%"> <img src="https://github.com/user-attachments/assets/f2900945-3713-483a-ac01-3f6745c93e23" width="45%"> |
-| 에디터의 추천, 이벤트등 프로모션 소식을 확인할 수 있는 서브페이지 입니다.
-| 프로모션 카드를 클릭하면, 이벤트의 상세 정보를 볼 수 있는 페이지로 이동합니다.
-<br>
+- 선택한 스테이의 상세 정보 제공  
+- 예약 날짜 선택, 이미지 확인, 가격 조회 가능
 
+---
 
-| 서브: journal (Travel)                                                                                                        |
-| :---------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/8452e3c1-bc5c-4a3e-ac83-34c7b9981f3f" width="45%"> <img src="https://github.com/user-attachments/assets/4cd208f0-5166-49c7-91fb-ea704be47094" width="45%"> |
-| 스테이 여행기를 볼 수 있는 서브페이지 입니다.
-| 카드를 클릭하면 해당 숙소에서 실제로 투숙하며 여행했던 여행기를 볼 수 있는 페이지로 이동합니다.
-<br>
+#### 🔹 Promotion
+<img src="https://github.com/user-attachments/assets/c4f106f3-1fcf-43a0-b754-7c3283247c8d" width="45%"/> <img src="https://github.com/user-attachments/assets/f2900945-3713-483a-ac01-3f6745c93e23" width="45%"/>
 
+- 에디터 추천 및 이벤트 등 프로모션 확인 가능  
+- 카드 클릭 시 상세 페이지 이동
 
-| 서브: journal (Magajine)                                                                                                        |
-| :---------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/47f0acda-226d-4a73-bb7c-c56535619f1c" width="45%"> <img src="https://github.com/user-attachments/assets/3d01740f-533f-416f-848b-0c206fdf7d8c" width="45%"> |
-| 매거진을 볼 수 있는 서브페이지 입니다.
-| 카드를 클릭하면 매거진 상세 내용을 볼 수 있는 페이지로 이동합니다.
-<br>
+---
 
+#### 🔹 Journal - Travel
+<img src="https://github.com/user-attachments/assets/8452e3c1-bc5c-4a3e-ac83-34c7b9981f3f" width="45%"/> <img src="https://github.com/user-attachments/assets/4cd208f0-5166-49c7-91fb-ea704be47094" width="45%"/>
 
-| 서브: Pre-order                                                                                                        |
-| :---------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/1ffbc74b-83ae-4d5d-b7ec-affb4f3fedfe"> |
-| 오픈 준비 중인 프리오더 서브페이지 입니다.
+- 실제 투숙 기반의 여행기를 제공하는 섹션  
+- 카드 클릭 시 상세 여행기 페이지로 이동
 
+---
 
+#### 🔹 Journal - Magazine
+<img src="https://github.com/user-attachments/assets/47f0acda-226d-4a73-bb7c-c56535619f1c" width="45%"/> <img src="https://github.com/user-attachments/assets/3d01740f-533f-416f-848b-0c206fdf7d8c" width="45%"/>
+
+- 다양한 테마와 정보를 담은 매거진 콘텐츠  
+- 카드 클릭 시 상세 페이지 이동
+
+---
+
+#### 🔹 Pre-order
+<img src="https://github.com/user-attachments/assets/1ffbc74b-83ae-4d5d-b7ec-affb4f3fedfe" width="80%"/>
+
+- 오픈 예정 숙소 정보를 미리 보여주는 페이지
 
 ---
 
 ## 📝 라이선스
 
-본 프로젝트는 **개인 포트폴리오 및 학습용**으로 제작되었으며,
-StayFolio의 브랜드 및 이미지 저작권은 해당 사이트에 있습니다.
-
+본 프로젝트는 **개인 포트폴리오 및 학습용**으로 제작되었습니다.  
+StayFolio의 브랜드 및 이미지 저작권은 해당 사이트에 있으며, 상업적 사용은 금지됩니다.
