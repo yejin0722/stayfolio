@@ -119,7 +119,7 @@ React 프레임워크와 React-Bootstrap 라이브러리를 통해 재구현한 
 
 | 서브03 : journal (Travel)                                                                                                        |
 | :---------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/user-attachments/assets/8452e3c1-bc5c-4a3e-ac83-34c7b9981f3f" width="45%"> <img src="https://github.com/user-attachments/assets/2d8b926b-ca3c-4509-9961-ceb4b244434d" width="45%"> |
+| <img src="https://github.com/user-attachments/assets/8452e3c1-bc5c-4a3e-ac83-34c7b9981f3f" width="45%"> <img src="https://github.com/user-attachments/assets/4cd208f0-5166-49c7-91fb-ea704be47094" width="45%"> |
 | 스테이 여행기를 볼 수 있는 서브페이지 입니다.
 | 카드를 클릭하면 해당 숙소에서 실제로 투숙하며 여행했던 여행기를 볼 수 있는 서브페이지로 이동합니다.
 
