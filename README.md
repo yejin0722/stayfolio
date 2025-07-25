@@ -31,7 +31,7 @@
 ## ✨ 데모 사이트
 
 👉 [StayFolio 클론 사이트 바로가기](https://precious-halva-7b73d6.netlify.app/)  
-📱 **모바일 최적화** 완료
+📱 **태블릿, 모바일환경 최적화** 완료
 
 ---
 
