@@ -14,18 +14,18 @@ function StayCard({ stay }) {
           variant="top"
           src={stay.image}
         />
-        <Button
+        <p
           style={{
             position: 'absolute',
-            bottom: '-10px',
-            right: '-15px',
+            bottom: '-20px',
+            right: '0',
           }}
         >
     <img
       src="https://www.stayfolio.com/web/images/bookmark-white.svg"
       alt="bookmark"
     />
-  </Button>
+  </p>
 </div>
       <Card.Body
       style={{textAlign: 'left', marginLeft: '-16px'}}
